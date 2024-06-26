@@ -11,7 +11,7 @@ pipeline {
         
         stage('docker image build ') {
             steps {
-                sh 'docker build -t java-spring-19:v1'
+                sh 'docker build -t java-spring-19:v1 .'
             }
         }
         stage('docker login ') {
