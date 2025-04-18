@@ -9,7 +9,7 @@ pipeline {
             }
         }
         
-        stage('docker image build ') {
+        /*stage('docker image build ') {
             steps {
                 sh 'docker build -t java-spring-19:v${BUILD_NUMBER} .'
             }
@@ -51,5 +51,5 @@ pipeline {
      Devops Team''', subject: 'testing jenkins pipeline: $JOB_URL', to: 'malleshdevops2021@outlook.com'
     }
     }
-
+*/
 }
