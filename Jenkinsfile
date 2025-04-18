@@ -8,7 +8,7 @@ pipeline {
                sh 'mvn clean package'
             }
         }
-        
+    } 
         /*stage('docker image build ') {
             steps {
                 sh 'docker build -t java-spring-19:v${BUILD_NUMBER} .'
