@@ -1,6 +1,6 @@
 pipeline {
-   // agent any
-	agent {label 'slave' }
+    agent any
+	// agent {label 'slave' }
     stages {
        
         stage('maven build ') {
